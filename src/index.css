@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar{
+  width: 100%;
+  height: 75px;
+  background-color: rgb(210, 104, 104);
+  align-items: center;
+  padding-left: 50%;
+  display: flex;
+}
+.earth-logo{
+  width: 20px;
+  height:20px;
+  color: whitesmoke;
+  margin: 10px;
+}
+.title-nav{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.journal{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.journal--image{
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+.journal--header{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+  .journal--header h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+
+  color: #2B283A;
+}
+.location--logo{
+  width: 20px;
+  height:20px;
+  padding-right: 5px;
+  color: rgb(216, 58, 58);
+}
+.link_info{
+  color:#918E9B;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.journal--info{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.journal--title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.journal--date{
+  padding-block: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #2B283A;
+}
+
+.journal--description{
+  width:50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18;
+  color: #2B283A;
+}
+.hr--line{
+margin-top: 50px;
+}
